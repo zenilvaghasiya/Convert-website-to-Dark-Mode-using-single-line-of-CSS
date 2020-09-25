@@ -1,0 +1,157 @@
+ *{
+
+/* CSS */
+box-sizing: border-box;
+
+}
+body{
+
+    padding: 0;
+    margin: 0;
+    height: 600px;
+    background: #afcaba;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    background: none;
+    border: none;
+    font-size: 25px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+}
+.switch{
+    width: 155px;
+    height: 70px;
+    background: #0a0b0c;
+    border-radius: 70px;
+    margin: 0 15px;
+    padding: 3px;
+    position: relative;
+    transition: .4s;
+}
+.circle{
+    width: 60px;
+    height: 60px;
+    background: #fce3ad;
+    border-radius: 50%;
+    position: absolute;
+    left: 4px;
+    top: 5px;
+    box-shadow: 1px 1px 8px #000000;
+    transition: .3s;
+
+
+}
+span.a,span.b,span.c,span.d,span.e,span.f,span.g,span.h,span.i{
+    border-radius: 50%;
+    background: #bbb;
+    position: absolute;
+    transition: .3s;
+
+}
+.a{
+    width: 10px;
+    height: 10px;
+    top: 15px;
+    left: 15px;
+}
+.b{
+    width: 7px;
+    height: 7px;
+    top: 25px;
+    left: 35px;
+}
+.c{
+    width: 5px;
+    height: 5px;
+    top: 40px;
+    left: 20px;
+}
+
+/* for AM(Light) */
+
+.a.light{
+    width: 70px;
+    height: 6px;
+    top: 15px;
+    left: -70px;
+    background: #e1f5fd;
+}
+.b.light{
+    width: 55px;
+    height: 6px;
+    top: 29px;
+    left: -30px;
+    background: #e1f5fd;
+}
+.c.light{
+    width: 55px;
+    height: 6px;
+    top: 45px;
+    left: -52px;
+    background: #e1f5fd;
+}
+
+.d{
+    width: 3px;
+    height: 3px;
+    top: 30px;
+    left: 70px;
+    background: #fff;
+}
+.e{
+    width: 5px;
+    height: 5px;
+    top: 50px;
+    left: 80px;
+    background: #fff;
+}
+.f{
+    width: 8px;
+    height: 8px;
+    top: 10px;
+    left: 100px;
+    background: #fff;
+}
+.g{
+    width: 8px;
+    height: 8px;
+    top: 50px;
+    left: 120px;
+    background: #fff;
+}
+.h{
+    width: 10px;
+    height: 10px;
+    top: 50px;
+    left: 120px;
+    background: #fff;
+}
+.i{
+    width: 7px;
+    height: 7px;
+    top: 35px;
+    left: 100px;
+    background: #fff;
+}
+
+
+/* for Switch */
+
+.toggle{
+    left: 90px;
+    background: #fbce92;
+
+}
+
+/* for color button */
+
+.active{
+    color: #abca20;
+}
